@@ -1,4 +1,4 @@
-# blogr
+# Handling authentication in your GraphQL-powered Vue app: blogr
 
 ## Tutorial 
 
