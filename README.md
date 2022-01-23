@@ -1,5 +1,9 @@
 # blogr
 
+## Tutorial 
+
+* See [Handling authentication in your GraphQL-powered Vue app](https://blog.logrocket.com/handling-authentication-in-your-graphql-powered-vue-app/) by [Anjolaoluwa Adebayo-Oyetoro](https://blog.logrocket.com/author/anjolaoluwaadebayooyetoro/)
+
 ## Project setup
 ```
 npm install

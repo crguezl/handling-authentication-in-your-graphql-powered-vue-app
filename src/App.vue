@@ -1,10 +1,13 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <header class="header">
+      <div class="app-name">Blogr</div>
+      <div v-if="authStatus" id="nav">
+        <div>{{ user.name }}</div>
+        <button class="auth-button" @click="logOut">Log Out</button>
+      </div>
+    </header>
+    <router-view />
   </div>
 </template>
 
